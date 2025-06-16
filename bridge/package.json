@@ -1,0 +1,13 @@
+{
+  "name": "sensor-bridge",
+  "version": "1.0.0",
+  "description": "Connects HC-05 sensor data to Supabase.",
+  "main": "hc05-to-supabase.js",
+  "scripts": {
+    "start": "node hc05-to-supabase.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.0.0",
+    "serialport": "^10.0.0"
+  }
+}
